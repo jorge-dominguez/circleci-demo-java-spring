@@ -27,7 +27,7 @@ jobs:
           paths: target/demo-java-spring-0.0.1-SNAPSHOT.jar
           
       - run:
-        name: Code Has Arrived
-        command: |
-          ls -al
-          echo 'ˆˆˆThat should look familiarˆˆˆ'
+          name: Code Has Arrived
+          command: |
+            ls -al
+            echo 'ˆˆˆThat should look familiarˆˆˆ'
